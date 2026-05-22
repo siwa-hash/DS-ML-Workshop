@@ -146,6 +146,6 @@ else:
     st.code("Name,Age,Phone\nJohn Doe,30,081-234-5678")
 
 # ปุ่มกลับหน้าหลัก
-st.sidebar.divider()
+# st.sidebar.divider()
 if st.sidebar.button("🏠 กลับหน้าหลัก"):
     st.switch_page("app.py")
