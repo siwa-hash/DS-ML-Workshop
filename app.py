@@ -28,3 +28,5 @@ elif st.button("💰  การจัดกลุ่มข้อมูล"):
     st.switch_page("pages/clustering_segment.py")
 elif st.button("💰  Behavioral Association"):
     st.switch_page("pages/association_recommend.py")
+elif st.button("💰  ระบบแนะนำสินค้า"):
+    st.switch_page("pages/association_items.py")
